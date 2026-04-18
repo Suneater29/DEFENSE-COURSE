@@ -1,0 +1,9 @@
+/* doing changes in class = myclass */
+.myclass{
+    text-align: center;
+}
+
+/* doing changes in my = myid */
+#myid{
+    background-color: pink;
+}
