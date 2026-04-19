@@ -11,7 +11,106 @@
     <hr>
 
     <form>
+        <h2>Personal Details</h2>
+
+        <label for="name">First Name : </label>
+        <input type="text" name="name" id="name" placeholder="e.g- Anoop" required>
+        <br><br>
+
+        <label for="surname">Last Name : </label>
+        <input type="text" name="surname" id="surname" placeholder="e.g- Normie" required>
+        <br><br>
+
+        <label for="dob">Date of Birth : </label>
+        <input type="date" name="dob" id="dob" required>
+        <br><br>
+
+        <h3>Gender : </h3>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <br><br>
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br><br>
+
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <br><br>
+
+        <label for="file">Upload your photo : </label>
+        <input type="file" name="file">
+        <hr>
+
+
+        <h2>Contact Information</h2>
+        <label for="mail">Email Address : </label>
+        <input type="email" name="mail" id="mail" placeholder="e.g - normie@example.com" required>
+        <br><br>
+
+        <label for="number">Phone Number : </label>
+        <input type="tel" name="number" id="number" placeholder="e.g - 123456789" required>
+        <br><br>
+
+        <label for="address">Mailing Address</label>
+        <br>
+        <textarea name="address" id="address" rows="5" cols="40" required></textarea>
+        <hr>
+
+        <h2>Academic Information</h2>
+
+        <label for="course">Select Your course</label>
+        <select name="course" id="course" required>
+            <option value="CSE">CSE</option>
+            <option value="ME">ME</option>
+            <option value="ECE">ECE</option>
+            <option value="CE">CE</option>
+            <option value="AI/ML">AI/ML</option>
+        </select>
+        <br><br>
+
+        <label for="extra">Extracirricular Interests : </label>
+        <br>
+        <label for="sports">sports</label>
+        <input type="checkbox" name="extra" id="sports" value="sports">
+        <br>
+        <label for="music and arts">music and arts</label>
+        <input type="checkbox" name="extra" id="music and arts" value="music and arts">
+        <br><label for="technology clubs">technology clubs</label>
+        <input type="checkbox" name="extra" id="technology clubs" value="technology clubs">
+        <br>
+        <label for="volunteering">volunteering</label>
+        <input type="checkbox" name="extra" id="volunteering" value="volunteering">
+        <br>
+        <hr>
+
+        <h2>Create Your Account</h2>
         
+        <label for="pass">Create a Password : </label>
+        <input type="password" name="pass" id="pass" required>
+        <br><br>
+
+        <label for="ques">Security Question</label>
+        <select name="ques" id="ques">
+            <option value="name">What is my internet name ? </option>
+            <option value="car">what is my favourite car ? </option>
+            <option value="animal">What is my favourite animal ? </option>
+            <option value="phone">Which was my first phone ? </option>
+            <option value="hero">Who is my favourite superhero ?</option>
+        </select>
+        <br><br>
+
+        <label for="ans">Security Answer : </label>
+        <input type="text" name="ans" id="ans">
+        <br><br>
+
+        <label for="check">I agree to Terms and Conditions</label>
+        <input type="checkbox" required>
+        <hr>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset </button>
+
     </form>
 </body>
 </html>
