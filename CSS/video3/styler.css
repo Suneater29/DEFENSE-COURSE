@@ -1,0 +1,21 @@
+h1{
+    background-color: yellow;
+    height: 600px;
+    width: 400px;
+}
+h2{
+    background-color: cyan;
+    position:relative;
+    left: 100px;
+}
+h3{
+    background-color: pink;
+    position: fixed;
+    top: 0px;
+    left: 40px;
+}
+h4{
+    background-color: green;
+    position: sticky;
+    top: 0px;
+}

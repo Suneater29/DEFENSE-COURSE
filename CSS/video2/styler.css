@@ -1,0 +1,18 @@
+/* default styles */
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+h1{
+    background-color: yellow;
+    display: inline-block;
+    box-sizing: content-box;
+    width: 300px;
+    padding: 40px;
+}
+span{
+    background-color: aquamarine ;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 40px;
+}

@@ -1,0 +1,16 @@
+#container{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+#circle{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    /* to convert any div to circle make border radius to 50% */
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
