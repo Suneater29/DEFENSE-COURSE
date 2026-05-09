@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: rgb(249, 249, 233);
+    font-size: 30px;
+}
+body{
+    background-color: black;
+}
+.container{
+    padding: 20px;
+    display: grid;
+    /* grid-template-rows: 200px 200px; */
+    grid-template-rows: 1fr 1fr;
+    /* grid-template-columns: 200px 200px; */
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: 400px;
+    width: 400px; 
+}
+.First{
+    background-color: orange;
+}
+.Second{
+    background-color: rgb(93, 93, 22);
+}
+.Third{
+    background-color: violet;
+}
+.Fourth{
+    background-color: pink;
+}

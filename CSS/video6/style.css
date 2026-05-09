@@ -1,0 +1,31 @@
+.container{
+    height: 500px;
+    width: 500px;
+    font-size: 50px;
+    background-color: aqua;
+}
+/* desktop first approach : max-width */
+@media screen and (max-width:900px) {
+    .container{
+        height: 300px;
+        width: 300px;
+        background-color: rgb(12, 127, 23);
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:600px) {
+    .container{
+        height: 300px;
+        width: 300px;
+        background-color: orange;
+        font-size: 20px;
+    }
+} 
+/* mobile first approach : min-width */
+
+  /* @media screen and (min-width:600px) {
+    .container{
+        background-color: yellow;
+        font-size: 50px;
+    }
+  } */

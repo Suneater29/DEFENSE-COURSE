@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: grid;
+    height: 600px;
+    width: 600px;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;  
+    color: white;
+    gap: 20px;
+    padding: 10px;
+    font-size: 30px;
+}
+.Box{
+    background-color: blue;
+}
+.Header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.content1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.Footer{
+    grid-column-start: 1 ;
+    grid-column-end: 4;
+}
