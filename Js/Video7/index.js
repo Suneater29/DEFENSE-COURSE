@@ -32,4 +32,4 @@
 // console.log(arr);
 
 const arr=[2,7,8,[90,66,54,6],45,33];
-console.log(arr.flat());
+console.log(arr.flat(Infinity));
